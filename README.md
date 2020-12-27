@@ -22,3 +22,12 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+docker-compose run --rm app bundle exec rails db:create db:migrate
+
+docker-compose run --rm app bundle exec rails g controller top top
+
+コンテナ内
+docker-compose run --rm app bash
+
