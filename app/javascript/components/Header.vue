@@ -1,7 +1,5 @@
 <template>
   <header>
-    
-    
     <!--ハンバーガーメニューのボタン-->
     <div class="hamburger_btn" v-on:click='ActiveBtn=!ActiveBtn'>
       <span class="line line_01" v-bind:class="{'btn_line01':ActiveBtn}"></span>
