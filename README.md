@@ -23,6 +23,8 @@ Things you may want to cover:
 
 * ...
 
+$ docker-compose run --rm app bundle exec rails webpacker:install
+$ docker-compose run --rm app bundle exec rails webpacker:install:vue
 
 docker-compose run --rm app bundle exec rails db:create db:migrate
 
