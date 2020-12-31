@@ -43,3 +43,6 @@ mysql> set character_set_client = utf8mb4;
 mysql> set character_set_connection = utf8mb4;
 
 
+docker-compose build --no-cache
+
+http://localhost:3000/api/books/1.json
