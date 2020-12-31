@@ -6,4 +6,13 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Book.create(title:"あああ",author:"いいい",publisher:"ううう",genre:"えええ")
+# Book.create(title:"あああ",author:"いいい",publisher:"ううう",genre:"えええ")
+
+20.times do
+    Book.create!(
+      title: Faker::Book.title,
+      author: Faker::Book.author,
+      publisher: Faker::Book.publisher,
+      genre: Faker::Book.genre
+    )
+  end
