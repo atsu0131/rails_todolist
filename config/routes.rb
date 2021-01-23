@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   resources :books, only: [:index]
   namespace :api do
     #API用のルーティングはここに書く
-    resources :books, only: [:show]
+    resources :books
    end
  
    get '*path', to: 'top#top', format: false   #getのリクエストをまとめる
